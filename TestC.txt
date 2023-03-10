@@ -1,0 +1,6 @@
+
+<zscriptinsert, "PluginPalette.txt">	// "./PluginPalette.txt"
+
+[VarSet, $PREFIX, "C-"]
+
+<zscriptinsert, "PluginBody.txt">	// "./PluginBody.txt"

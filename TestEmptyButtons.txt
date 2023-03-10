@@ -1,0 +1,24 @@
+
+<zscriptinsert, "PluginPalette.txt">	// "./PluginPalette.txt"
+
+[VarSet, $PREFIX, "Z-"]
+
+
+
+/* EMPTY BUTTONS TEST
+
+*/
+
+[VarSet, $SUBMENU, 	[StrMerge, $PREFIX, "EMPTY BUTTONS"]]
+
+[VarSet, $CONTROLS,	[StrMerge, $PALETTE, ":", $SUBMENU, ":"]]	// FULL PATH: Menu > Submenu > Control
+
+
+[ISubPalette, [StrMerge, $PALETTE, ":", $SUBMENU ]]
+
+[IButton,  [StrMerge, $CONTROLS, "                   A"], "A",, 0, 64]
+[IButton,  [StrMerge, $CONTROLS, "                   B"], "B",, 0, 64]
+[IButton,  [StrMerge, $CONTROLS, "                   C"], "C",, 0, 64]
+[IButton,  [StrMerge, $CONTROLS, "                   D"], "D",, 0, 64]
+[IButton,  [StrMerge, $CONTROLS, "                   E"], "E",, 0, 64]
+[IButton,  [StrMerge, $CONTROLS, "                   F"], "F",, 0, 64]

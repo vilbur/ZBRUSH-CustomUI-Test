@@ -1,0 +1,31 @@
+
+
+[VarSet, $SUBMENU_1, 	[StrMerge, $PREFIX, "SUBMENU_1"]]
+[VarSet, $SUBMENU_2, 	[StrMerge, $PREFIX, "SUBMENU_2"]]
+[VarSet, $SUBMENU_3, 	[StrMerge, $PREFIX, "SUBMENU_3"]]
+[VarSet, $SUBMENU_4, 	[StrMerge, $PREFIX, "SUBMENU_4"]]
+
+
+[VarSet, $CONTROLS_W,	[StrMerge, $PALETTE, ":", $SUBMENU_1, ":"]]	// FULL PATH: Menu > Submenu > Control
+[VarSet, $CONTROLS_X,	[StrMerge, $PALETTE, ":", $SUBMENU_2, ":"]]	// FULL PATH: Menu > Submenu > Control
+[VarSet, $CONTROLS_Y,	[StrMerge, $PALETTE, ":", $SUBMENU_3, ":"]]	// FULL PATH: Menu > Submenu > Control
+[VarSet, $CONTROLS_Z,	[StrMerge, $PALETTE, ":", $SUBMENU_4, ":"]]	// FULL PATH: Menu > Submenu > Control
+
+
+//[ISubPalette, [StrMerge, $PALETTE, ":", $SUBMENU_1 ]]
+[ISubPalette, [StrMerge, $PALETTE, ":", $SUBMENU_2 ]]
+[ISubPalette, [StrMerge, $PALETTE, ":", $SUBMENU_3 ]]
+[ISubPalette, [StrMerge, $PALETTE, ":", $SUBMENU_4 ]]
+
+
+[IButton,  [StrMerge, $CONTROLS_W, $PREFIX, " W1"]]
+[IButton,  [StrMerge, $CONTROLS_W, $PREFIX, " W2"]]
+
+[IButton,  [StrMerge, $CONTROLS_X, $PREFIX, " X1"]]
+[IButton,  [StrMerge, $CONTROLS_X, $PREFIX, " X2"]]
+
+[IButton,  [StrMerge, $CONTROLS_Y, $PREFIX, " Y1"]]
+[IButton,  [StrMerge, $CONTROLS_Y, $PREFIX, " Y2"]]
+
+[IButton,  [StrMerge, $CONTROLS_Z, $PREFIX, " Z1"]]
+[IButton,  [StrMerge, $CONTROLS_Z, $PREFIX, " Z2"]]

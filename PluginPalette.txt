@@ -1,0 +1,2 @@
+[VarSet, $PALETTE, 	"AAAPluginTest"]
+[IPalette, $PALETTE ]
